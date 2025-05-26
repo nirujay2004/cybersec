@@ -1,0 +1,68 @@
+nmap -sS 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org/ ) at 2025-05-26 01:43 EDT
+Nmap scan report for 192.168.1.1
+Host is up (0.0065s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT STATE SERVICE
+22/tcp open ssh
+23/tcp open telnet
+53/tcp open domain
+80/tcp open http
+MAC Address: CC:64:A6:45:6B:13 (Huawei Technologies)
+
+Nmap scan report for 192.168.1.37
+Host is up (0.0058s latency).
+All 1000 scanned ports on 192.168.1.37 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 8E:C6:F6:70:8C:AE (Unknown)
+
+Nmap scan report for 192.168.1.39
+Host is up (0.0069s latency).
+All 1000 scanned ports on 192.168.1.39 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E6:31:53:10:C4:A1 (Unknown)
+
+Nmap scan report for 192.168.1.41
+Host is up (0.0085s latency).
+All 1000 scanned ports on 192.168.1.41 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: FA:80:91:D2:DE:E6 (Unknown)
+
+Nmap scan report for 192.168.1.43
+Host is up (0.0072s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT STATE SERVICE
+8008/tcp open http
+8009/tcp open ajp13
+8443/tcp open https-alt
+9000/tcp open cslistener
+MAC Address: C4:8B:66:56:02:ED (Unknown)
+
+Nmap scan report for 192.168.1.44
+Host is up (0.0052s latency).
+All 1000 scanned ports on 192.168.1.44 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 22:A8:5B:84:44:C7 (Unknown)
+
+Nmap scan report for 192.168.1.46
+Host is up (0.072s latency).
+All 1000 scanned ports on 192.168.1.46 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: CA:3F:C2:69:DF:43 (Unknown)
+
+Nmap scan report for 192.168.1.47
+Host is up (0.00070s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT STATE SERVICE
+135/tcp open msrpc
+139/tcp open netbios-ssn
+445/tcp open microsoft-ds
+7070/tcp open realserver
+MAC Address: DC:97:BA:5E:F4:57 (Intel Corporate)
+
+Nmap scan report for 192.168.1.48
+Host is up (0.0000010s latency).
+All 1000 scanned ports on 192.168.1.48 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (9 hosts up) scanned in 13.35 seconds
